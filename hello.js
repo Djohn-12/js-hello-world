@@ -4,7 +4,22 @@ Enter your code on line 7 to print 'Hello, World!'
 to the console (the panel on the right)
 */
 
-console.log("Hello, World!");
+console.log("Hello, User!");
+console.log(17 + 16);
+console.log("17" + "16");
+console.log("This message should appear on the same line", );
+const input = require('readline-sync');
+
+let info = input.question("Please enter your age: ");
+//The user enters 25.
+
+console.log(typeof info);
+console.log(Boolean("true"));
+console.log(Boolean("TRUE"));
+console.log(Boolean(0));
+console.log(Boolean(1));
+console.log(Boolean(''));
+console.log(Boolean('LaunchCode'));
 
 /*  
 Next, PLAY! 
